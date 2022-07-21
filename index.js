@@ -13,6 +13,7 @@ mongoose
     console.log("OH NO MONGO CONNECTION ERROR!!!");
     console.log(err);
   });
+app.set();
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
